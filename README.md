@@ -5,7 +5,7 @@ Dit document dient om invulling te geven aan artikel 13, lid 6 van EU-verordenin
 Dit document is opgezet met [Gitbook](https://toolchain.gitbook.com/). Dit document in HTML boekvorm wordt hier gepubliceerd:
 https://alliander.gitbook.io/interfacespecificatie-elektriciteit-productie-eenh/
 
-Het document wordt herschreven in het Engels, daardoor zullen er tijdelijk zowel het Engels als Nederlands worden toegepast.
+Het document wordt herschreven in het Engels, daardoor zullen er tijdelijk zowel de Engelse als Nederlandse taal worden toegepast. De originele versie van het document is terug te vinden als release-versie 0.1. 
 
 Helaas ondersteund de nieuwste versie van Gitbook geen PDF, Mobi of Epub varianten. Deze zijn wel zelfstandig te maken met de [Gitbook toolchain](https://toolchain.gitbook.com/)
 
