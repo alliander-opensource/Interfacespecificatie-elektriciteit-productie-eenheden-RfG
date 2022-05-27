@@ -1,5 +1,8 @@
 # Interfacespecificatie elektriciteit productie-eenheden RfG
-Dit document dient om invulling te geven aan artikel 13, lid 6 van EU-verordening (EU) 2016/631 van 14 april 2016 en mogelijke andere delen van de EU networkcodes, naar de afkorting van de Engelse titel meestal aangeduid als "RfG". Het doel is een open samenwerking in de interfacespecificatie in de Nederlandse markt. Een eerste uitwerking is hierbij gepubliceerd voor een constructieve opbouw. Feedback is gewenst.
+Dit document is in 2019 en 2020 opgesteld om invulling te geven aan artikel 13, lid 6 van EU-verordening (EU) 2016/631 van 14 april 2016 en mogelijke andere delen van de EU networkcodes, naar de afkorting van de Engelse titel meestal aangeduid als "RfG". Het doel was een open samenwerking in de interfacespecificatie in de Nederlandse markt. Dit document is een eerste uitwerking voor een constructieve opbouw. 
+Uiteindelijk is het resultaat door een samenwerking van vele partijen met Netbeheer Nederland [gepubliceerd](https://www.netbeheernederland.nl/realtimeinterface).
+Deze gestaffelde aanpak kent ook een tweede versie met veel overeenkomsten zoals in dit document beschreven. Dit document zal daarom ook bewaard worden, en opnieuw in ontwikkeling kunnen komen bij de verdere uitwerking van deze tweede versie onder Netbeheer Nederland.
+Alliander is ondertussen begonnen met de open-source ontwikkeling van een [IEC 61850 scheduling controler](https://github.com/alliander-opensource/der-scheduling), als versneller voor de tweede versie. Het kan later worden gebruikt als component, of als referentie. De ontwikkeling van deze controler bevat ook een conformiteitstest in gedrag ten opzichte van de Duitse implementatie in de FNN-Steuerbox.
 
 # Publicatie 
 Dit document is opgezet met [Gitbook](https://toolchain.gitbook.com/). Dit document in HTML boekvorm wordt hier gepubliceerd:
@@ -28,7 +31,7 @@ https://help.github.com/articles/creating-an-issue/
 De bronnen zoals het Enterprise Architect (.eap) bestand en de powerpoint (.pptx) plaatjes staan in de map assets. 
 
 # Status
-Dit document is in actieve ontwikkeling. Pull-request en issues zijn welkom.
+Dit document is momenteel niet in actieve ontwikkeling. Pull-request en issues zijn welkom. Verwacht wordt dat deze repo actief wordt bij de doorontwikkeling van versie 2 van de Netbeheer Nederland gespecificeerde interface. 
 
 # Branching strategie
 Alle wijzigingen worden vooralsnog in de master branch geplaatst. 
@@ -38,11 +41,3 @@ De governance vindt plaats binnen Alliander en gerelateerde partijen. Gedelegeer
 
 # Licentie
 Dit document wordt uitgegeven onder de MIT licentie.
-
-# Vragen voor reviewers
-Er vanuitgaande dat de EU richtlijn een gegeven is. Onderstaande vragen kunnen helpen om input te geven op dit document.
-* Is dit de beste maatschappelijke invulling van de richtlijn? (Consumenten, Bedrijven, Netbeheers en andere stakeholders)
-  * Bijvoorbeeld; Risico's (elektriciteits systeem stabiliteit/black-out) vs kosten (implementatie, interfaces en processen)
-* Is de gekozen oplossing/richting voldoende eindgebruikers vriendelijk?
-* Zijn er situaties waar niet aan gedacht is?
-* Is de oplossing voldoende veilig/secure?
